@@ -171,6 +171,24 @@ Task 2 – Exploratory Data Analysis (EDA)
 
 ---
 
+## 📸 Project Screenshots
+
+### Questions Before Analysis
+
+![Questions](Questions.png)
+
+---
+
+### Exploratory Data Analysis
+
+![EDA Summary](EDA_Summary.png)
+
+---
+
+### Hypothesis Testing & Findings
+
+![Hypothesis Testing](Hypothesis_Testing.png)
+
 ## 👨‍💻 Author
 
 **Amit Pandey**
