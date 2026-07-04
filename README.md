@@ -171,4 +171,14 @@ Task 2 – Exploratory Data Analysis (EDA)
 
 ---
 
+## 👨‍💻 Author
+
+**Amit Pandey**
+
+CodeAlpha Data Analytics Intern
+
+GitHub: https://github.com/amit-pandey920
+
+---
+
 ⭐ Thank you for visiting this repository.
