@@ -1,101 +1,174 @@
-# CodeAlpha_EDA
-Exploratory Data Analysis (EDA) of a book dataset using Microsoft Excel for CodeAlpha Internship.
+# 📊 CodeAlpha Data Analytics Internship – Task 2
+## Exploratory Data Analysis (EDA) on Books Dataset
 
-# 📊 CodeAlpha - Exploratory Data Analysis (EDA)
+This repository contains **Task 2** of my **CodeAlpha Data Analytics Internship**.
 
-## Project Overview
-
-This project was completed as part of the **CodeAlpha Python Programming Internship**.
-
-The objective of this project is to perform **Exploratory Data Analysis (EDA)** on a dataset of books scraped from the **Books to Scrape** website using **Microsoft Excel**.
+The objective of this project is to perform **Exploratory Data Analysis (EDA)** on a books dataset collected from the **Books to Scrape** website and extract meaningful insights using Microsoft Excel.
 
 ---
 
-## Objectives
+## 📌 Project Objectives
 
+- Ask meaningful questions before starting the analysis.
 - Explore the dataset structure.
-- Understand variables and data types.
-- Analyze book prices and ratings.
-- Identify trends and patterns.
-- Detect missing values and data quality issues.
-- Answer meaningful analytical questions.
+- Identify variables and data types.
+- Perform summary statistical analysis.
+- Identify trends, patterns, and anomalies.
+- Test hypotheses using statistical methods.
+- Validate assumptions using charts and visualizations.
+- Detect potential data quality issues.
 
 ---
 
-## Dataset Information
+## 📂 Dataset Information
 
-The dataset contains information about **20 books**.
+- **Dataset Name:** Books Dataset
+- **Source:** Books to Scrape
+- **Rows:** 20
+- **Columns:** 4
 
-### Dataset Columns
+### Variables
 
-- Book Title
+- Title
 - Price (£)
 - Rating (1–5)
 - Availability
 
 ---
 
-## Questions Answered
+## 📊 Analysis Performed
+
+### Dataset Exploration
+
+- Dataset overview
+- Variables and data types
+- Data structure analysis
+
+### Summary Statistics
+
+- Average Price
+- Highest Price
+- Lowest Price
+- Average Rating
+- Most Frequent Rating
+- Books Available in Stock
+- Missing Value Check
+
+### Questions Before Analysis
+
+The project begins with 10 meaningful business questions, including:
 
 - What is the average price of books?
 - Which book is the most expensive?
-- Which book is the least expensive?
-- What is the average rating of books?
 - Which rating appears most frequently?
 - Are all books available in stock?
-- Are there any missing values in the dataset?
+- Do higher-rated books have higher prices?
+- Are there any unusual book prices?
+- Is the dataset suitable for further analysis?
 
 ---
 
-## Analysis Summary
+## 📈 Hypothesis Testing
 
-- **Average Price:** £38.05
-- **Highest Price:** £57.25
-- **Lowest Price:** £13.99
-- **Average Rating:** 2.85
-- **Most Frequent Rating:** 1 Star
-- **Books Available in Stock:** 20
-- **Missing Values:** 0
+### Hypothesis 1
 
----
+**Books with higher ratings tend to have higher average prices.**
 
-## Key Findings
+**Statistical Method Used**
 
-- The average book price is **£38.05**.
-- The most expensive book costs **£57.25**.
-- The least expensive book costs **£13.99**.
-- Most books have a **1-star rating**.
-- All books are currently **available in stock**.
-- No missing values were found in the dataset.
+- AVERAGEIF()
+
+**Result**
+
+The analysis shows that higher-rated books do not consistently have higher prices.
+
+**Conclusion**
+
+Hypothesis 1 is **not supported** by this dataset.
 
 ---
 
-## Tools Used
+### Hypothesis 2
+
+**All books are available in stock.**
+
+**Statistical Method Used**
+
+- COUNTIF()
+
+**Result**
+
+All 20 books are available in stock.
+
+**Conclusion**
+
+Hypothesis 2 is **supported**.
+
+---
+
+## 📉 Visualizations
+
+The project includes:
+
+- Book Rating Distribution Chart
+- Average Price by Rating Chart
+
+These visualizations help validate the statistical findings and better understand the dataset.
+
+---
+
+## ⚠ Potential Data Issues
+
+- No missing values found.
+- No duplicate records detected.
+- Small dataset size (20 books).
+- Data collected from a single website.
+- Dataset may change over time as the website updates.
+
+---
+
+## 📌 Key Findings
+
+- Average Book Price: **£38.05**
+- Highest Price: **£57.25**
+- Lowest Price: **£13.99**
+- Average Rating: **2.85 Stars**
+- Most Frequent Rating: **1 Star**
+- All books are currently in stock.
+- No consistent relationship exists between ratings and prices.
+
+---
+
+## 🛠 Tools Used
 
 - Microsoft Excel
-- CSV Dataset
+- Excel Functions
+  - AVERAGE
+  - MAX
+  - MIN
+  - MODE
+  - COUNTIF
+  - AVERAGEIF
+- Charts
+  - Column Chart
+  - Bar Chart
 
 ---
 
-## Files Included
+## 📁 Repository Contents
 
-```
-CodeAlpha_EDA/
-│
-├── EDA_Books.xlsx
-├── books_data.csv
-├── README.md
-└── LICENSE
-```
+- EDA_Books.xlsx
+- README.md
+- Screenshots of Visualizations
 
 ---
 
-## Author
+## 📚 Internship
 
-**Amit Pandey**
+**CodeAlpha Data Analytics Internship**
+
+Task 2 – Exploratory Data Analysis (EDA)
 
 ---
 
-## Internship
-
-This project was developed as part of the **CodeAlpha Python Programming Internship**.
+⭐ Thank you for visiting this repository.
